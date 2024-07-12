@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-nav a {
+    color: #333;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand-sign {
+    font-family: 'Sevillana', sans-serif;
+}
+
+
+.welcome-container {
+    background-color: #f8f9fa;
+}
+
+.welcome-container h1 {
+    color: #343a40;
+}
+
+
+.welcome-text {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.welcome-text h1 {
+    color: #343a40;
+}
+
+
+.daily-menu {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.daily-menu h1, .daily-menu h2, .daily-menu h4, .daily-menu h6 {
+    color: #343a40;
+}
+
+
+.good-food {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.signature-dish {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.signature-dish h1, .signature-dish h5 {
+    color: #343a40;
+}
+
+
+.booking-table {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.jessica {
+    border-radius: 50%;
+}
+
+.espinoza {
+    color: red;
+}
+
+.espinoza-text {
+    color: #fff;
+}
+
+
+.location {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.location h2, .location h5, .location p {
+    color: #343a40;
+}
+
+
+.prepared {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.prepared h2, .prepared h5 {
+    color: #fff;
+}
+
+
+.prepared img {
+    margin: 5px;
+}
+
+
+.prepared-table {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.prepared-table h2, .prepared-table h5 {
+    color: #343a40;
+}
+
+
+.prepared-table h5 {
+    text-align: center;
+    margin-top: 20px;
+}

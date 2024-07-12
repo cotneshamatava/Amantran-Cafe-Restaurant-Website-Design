@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-mua5e2+lf0x4/K7/wwtKgE6f5Lt3r/x/X+WoJ1OLtD1ZZ3+4rzmKY6PcETTRfJhPDjpwMz9X2t9eHWb4i8CfA==" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="col-4"><center><img src="./images/logo.png" alt=""></center></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./about-us.html">About us</a></li>
+                  <li><a class="dropdown-item" href="./deliciousmenu.html">Delicious Menu</a></li>
+                  <li><a class="dropdown-item" href="./ourchef.html">Our Chef</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./reservation.html">Reservation</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./page404.html">404 Page</a></li>
+                  <li><a class="dropdown-item" href="./ourevents.html">Events</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="about-us bg-dark" style="height: 300px;">
+        <div class="row" style="height: 20%;"></div>
+        <div class="row">
+            <div class="col-4"></div>
+            <center><div class="col-4"><h1 style="color: white;font-size: 70px;">CONTACT US</h1></div></center>
+            <div class="col-4"></div>
+        </div>
+        <div class="row" style="height: 5%;"></div>
+        <div class="row">
+            <div class="col-4"></div>
+            <center><div class="col-4"><h5 style="color: white;">home / contact</h5></div></center>
+            <div class="col-4"></div>
+        </div>
+        <div class="row"></div>
+    </div><br><br><br><br>
+
+    <div class="location" style="height: 500px;">
+        <div class="row" style="height: 15%;"></div>
+        <div class="row" style="height: 70%;">
+            <div class="col-2"></div>
+            <div class="col-3" style="height: 100%;">
+                <div class="row"><h2>HOW TO FIND US?</h2></div>
+                <div class="row"><h5>OUR RESTAURANT</h5></div>
+                <div class="row"><p>amantran Restaurant,</p></div>
+                <div class="row"><p>40 Park Ave,</p></div>
+                <div class="row"><p>Brooklyn 70250,</p></div>
+                <div class="row"><p>New York,</p></div>
+                <div class="row"></div>
+                <div class="row"><h5>GET IN TOUCH</h5></div>
+                <div class="row"><p>Tel : 012-927-4585-22</p></div>
+                <div class="row"><p>Email : support@example.com</p></div>
+                <div class="row"><p>Web : www.example.com</p></div>
+            </div>
+            <div class="col"></div>
+            <div class="col-5">
+                <img src="./images/StaticMapService.png" alt="">
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row" style="height: 15%;"></div>
+    </div><br><br><br>
+
+    <div class="say-hello" style="height: 500px;">
+        <div class="row">
+            <div class="col-2"></div>
+            
+            <div class="col-4">
+                <input style="width: 100%; height: 50px; width: 500px;" placeholder="Name" type="text" id="name" name="name" required>
+            </div>
+
+            <div class="col-4">
+                <input style="width: 100%; height: 50px; width: 500px;" placeholder="Email" type="email" id="email" name="email" required>
+            </div>
+            <div class="col-2"></div>
+        </div><br>
+
+        <div class="row">
+            <center><textarea style="width: 1080px; height: 100px;" placeholder="Message Text" id="request" name="request" rows="4"></textarea></center> 
+         </div>
+
+         <div class="row">
+            <center><button type="submit">Send</button></center>
+        </div>
+    </div>
+
+    <div class="prepeared prepared-table" style="height: 450px;">
+        <div class="row" style="height: 15%;"></div>
+        <div class="row" style="height: 25%;">
+            <div class="col"></div>
+            <div class="col-2">
+                <div class="row"><h2>ADDRESS:</h2></div>
+                <div class="row"><h5>amantran Restaurant</h5></div>
+                <div class="row"><h5>2923 White Pine Lane Ashburn, VA 20147</h5></div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2">
+                <div class="row"><h2>RESERVATION:</h2></div>
+                <div class="row"><h5>012-345-6789</h5></div>
+                <div class="row"><h5>contact@example.com</h5></div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-3">
+                <div class="row"><h2>OPENING HOURS:</h2></div>
+                <div class="row"><h5>Monday - Friday: 10 AM - 11 PM</h5></div>
+                <div class="row"><h5>Saturday - Sunday: 9 AM - 1 PM</h5></div>
+            </div>
+        </div>
+        <div class="row" style="height: 15%;"></div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./images/facebook.png" alt="" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/google.png" alt="" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/twitter.png" alt="" style="height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/linkedin.png" alt="" style="height: 50px; width: 50px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"></div>
+            
+        </div>
+
+        <div class="row" style="height: 15%;"></div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <h5>Copyright © amantran 2020 , Designed by Evrothemes</h3>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

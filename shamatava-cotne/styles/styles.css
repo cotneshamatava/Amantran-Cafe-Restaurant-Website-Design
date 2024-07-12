@@ -1,0 +1,275 @@
+.navigation{
+    width: 100%;
+}
+
+.center-text{
+    position: relative;
+    bottom: 350px;
+}
+
+.welcome{
+    width: 100%;
+}
+
+.welcome-container{
+    width: 100%;
+}
+
+.hand-sign{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sevillana', cursive;
+}
+
+.table{
+    background-image: url(../images/table.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.booking-table{
+    width: 100%;
+    height: 7000px;
+    background-image: url(../images/book_bg.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.girl-chef{
+    position: relative;
+    top: 100px;
+}
+
+.testimonia{
+    background-image: url(../images/testimonia_bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+
+.jessica{
+    position: relative;
+    left: 320px;
+    top: 50px;
+}
+
+.espinoza{
+    position: relative;
+    top: 70px;
+    left: 260px;
+}
+
+.espinoza-text{
+    position: relative;
+    top: 100px;
+}
+
+.prepared-table{
+    background-image: url(../images/prepared-table.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us{
+    background-image: url(../images/breadcromb.jpeg);
+    background-attachment: local;
+    background-size: cover;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f8f9fa; 
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+    max-height: 60px; 
+}
+
+.navbar-nav a.nav-link {
+    color: #495057;
+}
+
+.navbar-nav a.nav-link:hover {
+    color: #007bff;
+}
+
+.welcome {
+    margin-top: 20px;
+}
+
+.welcome-container h1,
+.welcome-container p {
+    color: #212529;
+}
+
+.welcome-text p {
+    line-height: 1.6;
+}
+
+
+
+.daily-menu img {
+    border-radius: 8px;
+}
+
+.good-food {
+    background-color: #28a745;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.signature-dish h1,
+.signature-dish h2 {
+    color: #dc3545;
+}
+
+.signature-dish .card {
+    margin-bottom: 20px;
+}
+
+
+
+.best-experience input,
+.best-experience textarea {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da; 
+    border-radius: 5px;
+}
+
+.jess img {
+    border-radius: 50%; 
+}
+
+
+
+.prepeared {
+    background-color: #f8f9fa; 
+}
+
+
+
+.prepeared img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.prepeared .row h5 {
+    margin-bottom: 0; 
+}
+
+.categories{
+    border: 5px solid gray;
+}
+
+.rating {
+    display: inline-block;
+    font-size: 24px;
+    color: #ffd700;
+  }
+
+  .rating::before {
+    content: '\2605 \2605 \2605 \2605 \2605';
+    letter-spacing: 5px;
+  }
+
+
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.carousel-item img {
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-top: 10px;
+    }
+
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    .welcome-text {
+        height: auto;
+    }
+
+    .daily-menu,
+    .signature-dish,
+    .best-experience,
+    .jess,
+    .location,
+    .prepeared {
+        height: auto;
+        padding: 20px;
+    }
+
+    .welcome-container,
+    .welcome-text,
+    .daily-menu,
+    .good-food,
+    .signature-dish,
+    .best-experience,
+    .jess,
+    .location,
+    .prepeared {
+        margin-bottom: 30px;
+    }
+
+    .girl-chef img {
+        height: auto;
+        width: 100%;
+    }
+
+    .espinoza-text {
+        font-size: 14px;
+    }
+
+    .location img {
+        width: 100%;
+        height: auto;
+    }
+}
